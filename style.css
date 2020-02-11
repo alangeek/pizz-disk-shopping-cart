@@ -19,15 +19,16 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#399ade;
+    background-color:#ef1c1c;
     display:none;
     justify-content: flex-end;
     align-items: center;
+
 }
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #a9dcff;
+    background-color: #fff;
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -263,6 +264,7 @@ h1 {
     text-align:center;
     line-height: 40px;
     margin-bottom:30px;
+    cursor: pointer;
 }
 .cart {
     margin-bottom:20px;
