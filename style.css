@@ -54,6 +54,7 @@ aside.show {
 }
 .cart--area {
     padding:20px;
+    position: fixed;
 }
 main {
     flex:1;
@@ -281,6 +282,9 @@ h1 {
 }
 .cart--item-nome {
     flex:1;
+    font-weight: bold;
+    color: #fe7075;
+    padding: 0px 6px 0 0;
 }
 .cart--item--qtarea {
     display:inline-flex;
