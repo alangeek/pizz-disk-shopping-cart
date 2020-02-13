@@ -19,7 +19,7 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#ef1c1c;
+    background-color:#EA1D4B;
     display:none;
     justify-content: flex-end;
     align-items: center;
@@ -31,6 +31,7 @@ header {
     background-color: #fff;
     padding: 5px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .menu-openner span {
     margin-right:10px;
@@ -40,6 +41,7 @@ header {
     height:32px;
     display:none;
     font-size: 30px;
+    cursor: pointer;
 }
 
 aside {
@@ -258,14 +260,24 @@ h1 {
 .pizzaInfo--cancelButton {
     display:inline-block;
     cursor:pointer;
+    text-align: center;
 }
 .pizzaInfo--cancelMobileButton {
-    display:none;
-    height:40px;
-    text-align:center;
+    display: none;
+    height: 40px;
+    text-align: center;
     line-height: 40px;
-    margin-bottom:30px;
+    width: 30%;
+    margin: 40px 37%;
     cursor: pointer;
+    background: #dc0b0b;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.pizzaInfo--cancelMobileButton:hover{
+    opacity: 0.9;
 }
 .cart {
     margin-bottom:20px;
